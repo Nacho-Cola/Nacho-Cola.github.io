@@ -100,11 +100,6 @@ header {
   width: 30%;
 }
 
-#name {
-  font-family: 'GmarketSansMedium';
-  font-size: 35px;
-  font-weight: 700;
-}
 
 .my_image {
   width: 70%;
@@ -124,6 +119,13 @@ header {
   color: black;
 }
 
+#name {
+  font-family: 'GmarketSansMedium';
+  font-size: 35px;
+  font-weight: 700;
+}
+
+
 footer {
   background-color: #f1f1f1;
   text-align: center;
@@ -133,3 +135,4 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
