@@ -30,6 +30,7 @@ header {
   justify-content: space-between;
 }
 
+
 .header_name {
   display: flex;
   align-items: center;
@@ -64,7 +65,6 @@ header {
   background-size: cover;
   background-position: center;
   color: chocolate;
-  text-shadow: 2px 2px 15px rgba(162, 119, 58, 0.5);
   font-size: clamp(20px, 3vw, 60px); /* Responsive font size */
   font-weight: bold;
   text-transform: uppercase;
@@ -86,15 +86,17 @@ header {
   color: #ffffff;
   font-family: "Nanum Brush Script";
   font-size: clamp(80px, 10vw, 160px); /* Responsive font size for highlights */
-  text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
 }
 
 .container {
+  justify-items: center;
   align-items: center;
   margin: 2vw 12vw 0 14vw;
 }
 
 .text_field {
+  width: clamp(80px, 100vw, 1200px);
   display: flex;
   justify-content: space-between;
 }
@@ -126,6 +128,7 @@ header {
   border-radius: 10%;
 }
 
+
 .sub_title {
   font-family: 'LINESeedKR-Bd';
   font-size: clamp(18px, 2.5vw, 30px); /* Responsive font size */
@@ -139,9 +142,13 @@ header {
 
 .contect {
   font-size: clamp(14px, 2vw, 22px); /* Responsive font size */
-  font-family: "Itim";
+  font-family: "Itim", 'Gowun Dodum', serif;
   text-decoration: none;
   color: black;
+}
+
+.pad{
+  margin: 10vw;
 }
 
 #name {
