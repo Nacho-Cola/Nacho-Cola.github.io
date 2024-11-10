@@ -2,21 +2,52 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
 </head>
 <body>
     <header>
-        <h1>김성규의 이력서</h1>
+      <div class="header_name">
+        <img class="icon_img" src="/src/icon.png" alt="Description of the image">
+        <p>김성규 이력서<p>
+      </div>
+      <div class="header_name">
+        <button class='icon_btn' type="button" onclick="location.href='https://github.com/Nacho-Cola';">
+          <img class="github_icon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg">
+        </button>
+        <button class='icon_btn' type="button" onclick="location.href='https://nacho-13.tistory.com/';">
+          <img class="github_icon" src="https://i.namu.wiki/i/Jz0MFNR7_7LHx1Yda0Hy6929g3BD5fWmaARdUMMFPkFIAVC_ewY7BEcoIGhepmTKRBKmSxRSUBjI7pklIZLaAA.svg">
+        </button>
+      </div>
     </header>
+    <div class='main_title_box'>
+      <h1>김성규의 이력서<h1>
+    </div>
+    <div class='container'>
+      <div class='text_field'>
+        <div class='main_text_field'>
+          <h2>About This Page</h2>
+          <p>This is a simple HTML example with a header, main content, and footer.</p>
+          <p>You can add more sections, styles, and functionality as needed.</p>
+        </div>
+        <div class='side_text_field'>
+          <h2>side Page</h2>
+          <p>This is a simple HTML example with a header, main content, and footer.</p>
+          <p>You can add more sections, styles, and functionality as needed.</p>
+        </div>
+      </div>
+    </div>
+
     <main>
-        <h2>About This Page</h2>
-        <p>This is a simple HTML example with a header, main content, and footer.</p>
-        <p>You can add more sections, styles, and functionality as needed.</p>
+
     </main>
     <footer>
         <p>&copy; 2024 Your Name. All Rights Reserved.</p>
     </footer>
+    <script src="/src/script.js"></script>
 </body>
 </html>

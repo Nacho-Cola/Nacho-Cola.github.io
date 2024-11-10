@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: white;
+  color: black;
+  padding: 0px 50px;
+  text-align: left;
+  font-family: 'Gowun Dodum', serif; 
+  font-size: 22px; ;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.header_name{
+  display: flex;
+  align-items: center;
+}
+
+.icon_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  padding: 0px 17px;
+}
+
+.github_icon{
+  width: 30px;
+  height: 30px;
+  border-radius: 30%;
+  padding: 0px 3px;
+}
+.icon_btn{
+  background-color: white;
+  border: 0cap;
+}
+
+.main_title_box{
+  font-family: 'GmarketSansMedium';
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  background-image: url("/src/bg_img.JPG");
+  background-size: cover;
+  background-position: center;
+  color :chocolate ;
+  text-shadow: 2px 2px 15px rgba(162, 119, 58, 0.5);
+  font-size: 40px;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+
+.caret {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.highlight {
+  font-weight: bold;
+  color: #ffffff; /* Example color, change as needed */
+  font-family: "Nanum Brush Script", cursive; 
+  font-size: 160px;
+  text-shadow:3px 3px 15px rgba(0, 0, 0, 0.6);
+}
+
+
+
+.container{
+  align-items: center;
+  margin: 2vw 15vw 0 20vw;
+}
+.text_field{
+  display: flex;
+  justify-content: space-between;
+}
+.main_text_field{
+  display: block;
+  width: 60%;
+}
+
+.side_text_field{
+  display: block;
+  width: 30%;
+}
+
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
