@@ -75,7 +75,7 @@ header {
 .highlight {
   font-weight: bold;
   color: #ffffff; /* Example color, change as needed */
-  font-family: "Nanum Brush Script", cursive; 
+  font-family: "Nanum Brush Script";
   font-size: 160px;
   text-shadow:3px 3px 15px rgba(0, 0, 0, 0.6);
 }
@@ -112,14 +112,14 @@ header {
 }
 
 .sub_title {
-  font-family: "Itim", cursive;
+  font-family: "Itim";
   font-size: 20px;
   font-weight: 700;
 }
 
 .contect {
   font-size: 20px;
-  font-family: "Itim", cursive;
+  font-family: "Itim";
   text-decoration: none;
   color: black;
 }
