@@ -12,6 +12,162 @@
 }
 
 body {
+  margin: 0;
+}
+
+@media (max-width: 1199px){
+  header {
+    background-color: white;
+    color: black;
+    padding: 0px 1px;
+    margin: 0px 8px 0px 8px;
+    text-align: left;
+    font-family: 'Gowun Dodum', serif;
+    font-size: 15px; 
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header_name {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon_img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    margin: 0px 7px;
+
+  }
+  
+  .github_icon {
+    width: 25px;
+    height: 30px;
+    border-radius: 30%;
+    padding: 0px 3px;
+  }
+  .icon_btn {
+    background-color: white;
+    border: 0;
+  }
+
+  .main_title_box {
+    font-family: 'GmarketSansMedium';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("/src/bg_img.JPG");
+    background-size: cover;
+    background-position: center;
+    color: #ff7700;
+    font-size: clamp(15px, 3vw, 60px); /* Responsive font size */
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .caret {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Nanum Brush Script";
+    font-size: clamp(55px, 10vw, 160px); /* Responsive font size for highlights */
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+  }
+  
+  .container {
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .text_field {
+    width: clamp(80px, 80vw, 1100px);
+    display:block;
+    justify-content: space-between;
+  }
+  
+  .main_text_field{
+    display: block;
+  }
+  
+  .side_text_field{
+    display: block;
+  }
+  
+  .project_name_field{
+    display: block;
+  }
+  
+  .project_detail_field{
+    display: block;
+  }
+  
+  
+  .my_image {
+    margin-top: 25px;
+    width: 30%;
+    border-radius: 10%;
+  }
+  
+  .sub_title_box{
+    margin-top: 100px;
+  }
+  .sub_title {
+    font-family: 'LINESeedKR-Bd';
+    font-size: clamp(18px, 2.5vw, 30px); /* Responsive font size */
+  }
+  
+  li {
+  margin: 10px 0px 10px 0;
+  }
+
+  .contect_title {
+    font-family: "Itim";
+    font-size: clamp(16px, 2vw, 25px); /* Responsive font size */
+    font-weight: 700;
+  }
+  
+  .contect {
+    font-size: clamp(14px, 2vw, 22px); /* Responsive font size */
+    font-family: 'Gowun Dodum', serif;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .pad{
+    margin: 10vw;
+  }
+  
+  #name {
+    font-family: 'GmarketSansMedium';
+    font-size: clamp(24px, 3vw, 40px); /* Responsive font size */
+    font-weight: 700;
+  }
+  
+  footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: clamp(10px, 1.5vw, 16px); /* Responsive font size */
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px){
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -64,7 +220,7 @@ header {
   background-image: url("/src/bg_img.JPG");
   background-size: cover;
   background-position: center;
-  color: chocolate;
+  color: #ff7700;
   font-size: clamp(20px, 3vw, 60px); /* Responsive font size */
   font-weight: bold;
   text-transform: uppercase;
@@ -141,7 +297,7 @@ header {
 
 .contect {
   font-size: clamp(14px, 2vw, 22px); /* Responsive font size */
-  font-family: "Itim", 'Gowun Dodum', serif;
+  font-family: 'Gowun Dodum', serif;
   text-decoration: none;
   color: black;
 }
@@ -156,6 +312,10 @@ header {
   font-weight: 700;
 }
 
+li {
+  margin: 10px 0px 10px 0;
+  }
+
 footer {
   background-color: #f1f1f1;
   text-align: center;
@@ -164,4 +324,5 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
 }
