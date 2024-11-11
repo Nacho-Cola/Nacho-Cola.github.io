@@ -92,8 +92,9 @@ body {
   }
   
   .text_field {
-    width: clamp(80px, 80vw, 1100px);
+    width: clamp(100px, 80vw, 1100px);
     display:block;
+    margin: 0 auto;
     justify-content: space-between;
   }
   
