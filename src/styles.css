@@ -333,12 +333,13 @@ footer {
 /* 그래프 */
 .skills {
   border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(124, 124, 124, 0.2), 0 15px 12px rgba(0, 0, 0, 0.22);
   padding: 25px 30px;
-  margin-top: 10vw;
+  margin-top: 20px;
 }
 
 .skills-bar .bar {
-  margin: 17px 0;
+  margin: 25px 0;
 }
 
 .skills-bar .bar .info span {
@@ -380,15 +381,17 @@ footer {
   width: 95%;
 }
 .progress-line .c {
-  width: 80%;
-}
-.progress-line .sql{
   width: 70%;
+}
+.progress-line .bootstrap {
+  width: 82%;
 }
 .progress-line .javascript {
   width: 62%;
 }
-
+.progress-line .sql {
+  width: 90%;
+}
 
 .bar .progress-line span::after {
   position: absolute;

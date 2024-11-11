@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function(event){
         displayText = displayText.replace("김", '<span class="highlight">김성규</span>');
       }
       // Add next character to h1
-      document.querySelector("h1").innerHTML = displayText + '<span class = "caret" aria-hidden="true"></span>';
+      document.querySelector("h2").innerHTML = displayText + '<span class = "caret" aria-hidden="true"></span>';
 
       // Wait for a while and call this function again for next character
       setTimeout(function() {
