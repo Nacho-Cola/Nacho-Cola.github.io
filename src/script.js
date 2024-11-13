@@ -11,15 +11,21 @@ window.addEventListener('resize', adjustDivHeight);
 
 
 document.addEventListener('DOMContentLoaded', function(event){
-  var dataText = ["AI.", "data.", "Full Stack.", "개발자 김 입니다."];
+  var dataText = ["AI.", "data.", "backend.", "개발자 ### 입니다."];
 
   function typeWriter(text, i, fnCallback) {
     // Check if text isn't finished yet
     if (i < (text.length)) {
       // Check if "김성규" appears in the text and wrap it in a span with a class
       let displayText = text.substring(0, i + 1);
-      if (displayText.includes("자")) {
-        displayText = displayText.replace("김", '<span class="highlight">김성규</span>');
+      if (displayText.includes("#")) {
+        displayText = displayText.replace("#", '<span class="highlight">김</span>');
+      }
+      if (displayText.includes("#")) {
+        displayText = displayText.replace("#", '<span class="highlight">성</span>');
+      }
+      if (displayText.includes("#")) {
+        displayText = displayText.replace("#", '<span class="highlight">규</span>');
       }
       // Add next character to h1
       document.querySelector("h2").innerHTML = displayText + '<span class = "caret" aria-hidden="true"></span>';
