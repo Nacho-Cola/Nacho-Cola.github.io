@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function(event){
   function typeWriter(text, i, fnCallback) {
     // Check if text isn't finished yet
     if (i < (text.length)) {
-      // Check if "김성규" appears in the text and wrap it in a span with a class
+
       let displayText = text.substring(0, i + 1);
       if (displayText.includes("#")) {
         displayText = displayText.replace("#", '<span class="highlight">김</span>');
